@@ -146,7 +146,7 @@ benchinit() {
 	# install speedtest-cli
 	if  [ ! -e 'speedtest.py' ]; then
 		echo " Installing Speedtest-cli ..."
-		wget --no-check-certificate https://raw.github.com/sivel/speedtest-cli/master/speedtest.py > /dev/null 2>&1
+		wget --no-check-certificate https://raw.github.com/jlw345/speedtest-cli/master/speedtest.py > /dev/null 2>&1
 	fi
 	chmod a+rx speedtest.py
 
@@ -161,8 +161,8 @@ benchinit() {
 	# install fast.com-cli
 	if  [ ! -e 'fast_com.py' ]; then
 		echo " Installing Fast.com-cli ..."
-		wget --no-check-certificate https://raw.githubusercontent.com/sanderjo/fast.com/master/fast_com.py > /dev/null 2>&1
-		wget --no-check-certificate https://raw.githubusercontent.com/sanderjo/fast.com/master/fast_com_example_usage.py > /dev/null 2>&1
+		wget --no-check-certificate https://raw.githubusercontent.com/jlw345/fast.com/master/fast_com.py > /dev/null 2>&1
+		wget --no-check-certificate https://raw.githubusercontent.com/jlw345/fast.com/master/fast_com_example_usage.py > /dev/null 2>&1
 	fi
 	chmod a+rx fast_com.py
 	chmod a+rx fast_com_example_usage.py
